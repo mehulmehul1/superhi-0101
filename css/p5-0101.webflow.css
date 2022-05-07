@@ -1,0 +1,24 @@
+.body {
+  background-color: #ecf072;
+  font-family: Spacegrotesk, sans-serif;
+  color: #ef5236;
+}
+
+.canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  right: 0%;
+  bottom: 0%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: 'Spacegrotesk';
+  src: url('../fonts/spacegrotesk-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
